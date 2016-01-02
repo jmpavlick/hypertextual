@@ -26,3 +26,11 @@ hypertextual was developed in Rails, but you don't need to be a Rails developer,
 * Git
 * [Heroku Toolbelt](https://toolbelt.heroku.com/)
 * A tenative grasp on [Markdown](https://daringfireball.net/projects/markdown/) (and this can be acquired in about four minutes because it is not hard)
+
+To go from zero to deploy, follow these simple steps:
+0. Install any dependencies and create an account at [heroku.com](heroku.com)
+0. `git clone git@github.com:angrysql/hypertextual.git`
+0. `heroku login`
+0. `heroku keys:add`
+0. `heroku create`
+0. `git push heroku master`
