@@ -1,23 +1,23 @@
 class BlogPostsController < ApplicationController
   def index
-    @postindex = params[:p] == nil ? 0 : params[:p].to_i
+    posts = Dir[Rails.root + "public/posts/*.md"]
+    @postindex = params[:p] == nil ? posts.count - 1 : params[:p].to_i
     renderer = Redcarpet::Render::HTML.new(render_options = {})
     markdown = Redcarpet::Markdown.new(renderer, extensions = {})
 
-    posts = Dir[Rails.root + "public/posts/*.md"]
     postfile = posts[@postindex]
     @content = markdown.render(IO.read(postfile))
 
-    datebase = File.basename(postfile).split("_")[0]
-    @date = datebase[0..3] + "-" + datebase[4..5] + "-" + datebase[6..7]
-    @next_title = posts[@postindex + 1] == nil ? nil : File.basename(posts[@postindex + 1], ".*").split("_")[1]
-    @previous_title = @postindex == 0 ? nil : File.basename(posts[@postindex - 1], ".*").split("_")[1]
+    @date = postdate(File.basename(postfile, ".*"))
+    @next_title = posts[@postindex + 1] == nil ? nil : titleify(File.basename(posts[@postindex + 1], ".*"))
+    @previous_title = @postindex == 0 ? nil : titleify(File.basename(posts[@postindex - 1], ".*"))
   end
 
   def allposts
     # post title is derived from filename by removing the date prefix
     # then adding a single space character at every new capital letter
     # i.e., 20150101_HelloHowAreYou becomes Hello How Are You
-    @posts = Dir[Rails.root + "public/posts/*.md"].map { |x| File.basename(x, ".*").split("_")[1].split(/(?=[A-Z])/).join(" ") }
+    # @posts = Dir[Rails.root + "public/posts/*.md"].map { |x| File.basename(x, ".*").split("_")[1].split(/(?=[A-Z])/).join(" ") }
+    @posts = Dir[Rails.root + "public/posts/*.md"].map { |x| titleify(File.basename(x, ".*")) }
   end
 end
