@@ -1,7 +1,7 @@
 <h2>All Blog Posts</h2>
 
 <ul>
-  <% @posts.each do |p| %>
-    <li><%= p %></li>
+  <% ((@posts.count - 1).downto(0)).each do |p| %>
+    <li><a href="/?p=<%= p %>"><%= @posts[p] %></a></li>
   <% end %>
 </ul>
