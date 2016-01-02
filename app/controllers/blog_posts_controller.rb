@@ -15,6 +15,9 @@ class BlogPostsController < ApplicationController
   end
 
   def allposts
-    @posts = Dir[Rails.root + "public/posts/*.md"].map { |x| File.basename(x, ".*").split("_")[1] }
+    # post title is derived from filename by removing the date prefix
+    # then adding a single space character at every new capital letter
+    # i.e., 20150101_HelloHowAreYou becomes Hello How Are You
+    @posts = Dir[Rails.root + "public/posts/*.md"].map { |x| File.basename(x, ".*").split("_")[1].split(/(?=[A-Z])/).join(" ") }
   end
 end
