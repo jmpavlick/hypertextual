@@ -1,2 +1,14 @@
 <%= raw(@content) %>
 <small><em>Posted on <%= @date %></em></small>
+<br />
+
+<% if @previous_title != nil %>
+  <br />
+  Previous Post: <a href="/?p=<%= @postindex - 1 %>"><%= @previous_title %></a>
+<% end %>
+<% if @next_title != nil%>
+  <br />
+  Next Post: <a href="/?p=<%= @postindex + 1 %>"><%= @next_title %></a>
+<% end %>
+<br /><br />
+<a href="/blog_posts/allposts">All Posts</a>
