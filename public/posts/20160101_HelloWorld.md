@@ -1,5 +1,5 @@
 ## Hello World: Complexity For Complexity's Sake Is The Enemy Of Progress.
-Today, I read a very interesting article on minimalism, browser performance, and the state of the web. In better interest of not boring you to death with my own inadequate interpretation, here's the link:[http://idlewords.com/talks/website_obesity.htm](http://idlewords.com/talks/website_obesity.htm)
+Today, I read a very interesting article on minimalism, browser performance, and the state of the web. In better interest of not boring you to death with my own inadequate interpretation, here's the link: [http://idlewords.com/talks/website_obesity.htm](http://idlewords.com/talks/website_obesity.htm)
 
 Read it yet? No? Fucking read it, the whole thing. I'll wait.
 
