@@ -17,11 +17,11 @@ group :development, :test do
 end
 
 group :development do
-  gem 'pg', '0.17.1'
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
 
 group :production do
+  gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end
