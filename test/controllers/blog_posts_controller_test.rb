@@ -1,0 +1,14 @@
+require 'test_helper'
+
+class BlogPostsControllerTest < ActionController::TestCase
+  test "should get index" do
+    get :index
+    assert_response :success
+  end
+
+  test "should get getpost" do
+    get :getpost
+    assert_response :success
+  end
+
+end
