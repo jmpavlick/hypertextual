@@ -6,8 +6,8 @@ class BlogPostsControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get getpost" do
-    get :getpost
+  test "should get allposts" do
+    get :allposts
     assert_response :success
   end
 
