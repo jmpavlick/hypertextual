@@ -12,7 +12,7 @@ Ready? Good. So I'm doing something that I've always wanted to do - I'm writing 
 * No comments. Most agree that you shouldn't fucking read them, so why let anyone write them?
 * No JavaScript. When has JavaScript ever done anything to remove the barrier between text and eyeballs? Did _War and Peace_ suffer readability issues from lack of JavaScript support? That's what I thought.
 * Literally anything else that could possibly be construed as YAGNI has been removed.
-* I did this in Rails because it took all of fifteen minutes to get from _rails new_ to a working minimum viable product. I could probably be leaner by using something more basic, but I'm not really a Web developer, and this is what I know.
+* I did this in Rails because it took all of fifteen minutes to get from `rails new` to a working minimum viable product. I could probably be leaner by using something more basic, but I'm not really a Web developer, and this is what I know.
 
 The source code is available [here](http://github.com/angrysql/hypertextual). Host on Heroku, host on EngineYard or AWS or I-don't-fucking-care and call it a fucking day. Heroku's free tier will probably work just fine - they prorate to the second, and unless you are servicing 18 hours of traffic a day to your blog written on a framework that responds and loads pages in milliseconds, then that's all you're going to need.
 
