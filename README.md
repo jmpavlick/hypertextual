@@ -20,6 +20,9 @@ hypertextual doesn't support those things because honestly, you don't need them 
 ## why are you doing this
 I read [http://idlewords.com/talks/website_obesity.htm](http://idlewords.com/talks/website_obesity.htm) and it struck a chord with me. I've always wanted to build a truly minimalist blog, so I rolled up my sleeves and did just that. It's fun to build things.
 
+## what the hell is chickenshit minimalism
+Chickenshit minimalism is defined as "technology that is aesthetically simple but consumes an inordinate amount of clock cycles and memory to accomplish simple tasks". Chickenshit minimalism is websites with flat UIs three colors and four sentences of text on a 1080p hero image and hamburger menus and 35 stylesheets and 45 JavaScripts that are downloaded from an ad network every time you fire off a request and 3 second load times.
+
 ## how do I use this
 hypertextual was developed in Rails, but you don't need to be a Rails developer, or even have Rails installed, to use it. You do, however, need:
 
