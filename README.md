@@ -43,13 +43,13 @@ hypertextual was developed in Rails, but you don't need to be a Rails developer,
 * Edit `$YOUR_FOLDER/hypertextual/app/views/layouts/application.html.erb`:
 	0. Change the `<title>` and the `<h1>` to the name of your own blog
 	0. Remove the bit about directing hatemail to [@angrysql](twitter.com/angrysql)
-	0. Keep the bit about 'This blog powered by [hypertextual](github.com/angrysql/hypertextual)', if you would be so kind.
+	0. Keep the bit about 'This blog powered by [hypertextual](github.com/angrysql/hypertextual)', if you would be so kind
 
 ### To write a blog post, follow these simple steps:
 
 0. Create a new text file in `$YOUR_FOLDER/hypertextual/public/posts`
 	* File naming convention is `YYYYMMDD_PostTitle.md`
-			* Example: `20160101_HelloWorld.md`
+		* Example: `20160101_HelloWorld.md`
 0. Write your post in Markdown. HTML works, too.
 0. `git add --all`
 0. `git commit -am "yada yada yada"`
