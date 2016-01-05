@@ -1,19 +1,27 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <link rel='shortcut icon' type='image/x-icon' href='/public/favicon.ico' />
-  <style>body { font-family: "Georgia", serif; } </style>
-  <title>hypertextu.al</title>
+	<link rel='shortcut icon' type='image/x-icon' href='/public/favicon.ico' />
+	<title>Page title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link href="style.css" media="all" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<h1><a href="/">hypertextu.al</a></h1>
-<hr />
-
-<%= yield %>
-
-<hr />
-<a href="/blog_posts/allposts">All Posts</a>
-<br /><br />
-<small>Please direct all hatemail to <a href="https://twitter.com/angrysql">@angrysql</a>. This blog powered by <a href="https://github.com/angrysql/hypertextual">hypertextual</a>.</small>
+<div id="main">
+	<div id="mainInnerPadding">
+		<h1>
+			<a href="/">hypertextu.al</a>
+		</h1>
+		<%= yield %>
+		<hr />
+		<a href="/blog_posts/allposts">All Posts</a> <br />
+		<br />
+		<small>
+			Please direct all hatemail to <a href="https://twitter.com/angrysql">@angrysql</a>.<br />
+			This blog powered by <a href="https://github.com/angrysql/hypertextual">hypertextual</a>.
+		</small> 
+	</div>
+</div>
 </body>
 </html>
