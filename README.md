@@ -34,7 +34,7 @@ hypertextual was developed in Rails, but you don't need to be a Rails developer,
 
 ### To go from zero to deploy, follow these simple steps:
 
-0. Install any dependencies and create an account at [heroku.com](heroku.com)
+0. Install any dependencies and create an account at [heroku.com](http://heroku.com)
 0. `git clone git@github.com:angrysql/hypertextual.git`
 0. `heroku login`
 0. `heroku keys:add`
