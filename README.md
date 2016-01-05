@@ -21,7 +21,7 @@ hypertextual doesn't support those things because honestly, you don't need them 
 I read [Maciej Cegłowski's talk "The Website Obesity Crisis"](http://idlewords.com/talks/website_obesity.htm) and it struck a chord with me. All I need to do is put words on the internet, and maybe link them together sometimes, so I built a blog framework that gives me what I need  - no more or less.
 
 ## what the hell is chickenshit minimalism
-Chickenshit minimalism is defined as "technology that is aesthetically and functionally simple, but consumes an inordinate amount of clock cycles and memory to accomplish those simple tasks". Chickenshit minimalism is websites with flat UIs three colors and four sentences of text on a 1080p hero image and hamburger menus and 35 stylesheets and 45 JavaScripts that are downloaded from an ad network every time you fire off a request and 3 second load times.
+Chickenshit minimalism is defined as "technology that is aesthetically and functionally simple, but consumes an inordinate amount of clock cycles and memory to accomplish those simple tasks". Chickenshit minimalism is websites with flat UIs, three colors, and four sentences of text on a 1080p hero image; and hamburger menus, and 35 stylesheets, and 45 JavaScripts that are downloaded from an ad network every time you fire off a request; and 3 second load times.
 
 ## how do I use this
 hypertextual was developed in Rails, but you don't need to be a Rails developer, or even have Rails installed, to use it. You do, however, need:
@@ -30,7 +30,7 @@ hypertextual was developed in Rails, but you don't need to be a Rails developer,
 
 * Git
 * [Heroku Toolbelt](https://toolbelt.heroku.com/)
-* A tenative grasp on [Markdown](https://daringfireball.net/projects/markdown/) (and this can be acquired in about four minutes because it is not hard)
+* A tentative grasp on [Markdown](https://daringfireball.net/projects/markdown/) (and this can be acquired in about four minutes because it is not hard)
 
 ### To go from zero to deploy, follow these simple steps:
 
