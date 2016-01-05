@@ -1,0 +1,52 @@
+BODY
+{
+	margin: 0;
+	font-family: -apple-system, Roboto, Helvetica, Georgia, Arial;
+	color: #3E2827;
+	background-color: #FFF;
+	line-height: 180%;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+A { color: #54c742; }
+IMG { border: 0; }
+
+#main
+{
+	width: 500px;
+	margin: 30px auto 0;
+}
+
+#mainInnerPadding { padding: 30px; }
+
+h2
+{
+	margin-top: 2em;
+	margin-bottom: 1.4em;
+	font-size: 22px;
+}
+
+CITE
+{
+	padding-left: 30px;
+	margin-left: 20px;
+	border-left: solid 1px #DDD;
+	font-style: normal;
+	display: block;
+}
+
+@media all and (max-device-width: 480px)
+{
+	BODY
+	{
+		font-size: 20px;
+		margin-top: 0;
+	}
+	
+	h2
+	{
+		margin-top: 0;
+		font-size: 26px;
+	}
+}
