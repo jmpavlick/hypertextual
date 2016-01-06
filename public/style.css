@@ -14,7 +14,8 @@ IMG { border: 0; }
 
 #main
 {
-	width: 500px;
+	/*width: 500px;*/
+	width: 75%;
 	margin: 30px auto 0;
 }
 
