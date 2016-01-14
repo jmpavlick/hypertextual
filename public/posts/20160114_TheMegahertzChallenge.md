@@ -5,6 +5,6 @@ I kept it there as a reminder to never settle for code that wasn't as efficient 
 
 My good friend and confidant [edlinfan](https://botb.club/~edlinfan/) is an embedded systems developer, and a retro-computing enthusiast of the purest form. As a New Years' Resolution, he's taken on what he calls The Megahertz Challenge - a resolve to spend as much time as possible using hardware whose clock speeds can't be measured in gigahertz. It's a very interesting idea, [and you can read more about it here, on his blog](https://botb.club/~edlinfan/blog/posts/The%20MHz%20Challenge.html).
 
-Inspired by this, I ran out and picked up a Rasberry Pi of my own... I'm still waiting on a few things tho show up in the mail, but I plan to do as much of my daily-driver, non-work-related computing on it as possible. I'm excited about the potential of doing some dev work on it, as well.
+Inspired by this, I ran out and picked up a Rasberry Pi of my own... I'm still waiting on a few things to show up in the mail, but I plan to do as much of my daily-driver, non-work-related computing on it as possible. I'm excited about the potential of doing some dev work on it, as well.
 
 For me, it comes down to *doing enough, with less*. You can still do a lot and have a lot of fun under 1GHZ, and I'm looking forward to the journey.
